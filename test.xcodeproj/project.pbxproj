@@ -395,10 +395,14 @@
 		0025FDFC17D80AA3001408FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ippei Otsuka (JZW5DJYPD8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ippei Otsuka (JZW5DJYPD8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
 				INFOPLIST_FILE = "test/test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0B3D22A0-59E8-4444-B61A-2F4B36CDBE2A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0B3D22A0-59E8-4444-B61A-2F4B36CDBE2A";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,10 +410,14 @@
 		0025FDFD17D80AA3001408FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ippei Otsuka (JZW5DJYPD8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ippei Otsuka (JZW5DJYPD8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
 				INFOPLIST_FILE = "test/test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0B3D22A0-59E8-4444-B61A-2F4B36CDBE2A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0B3D22A0-59E8-4444-B61A-2F4B36CDBE2A";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
